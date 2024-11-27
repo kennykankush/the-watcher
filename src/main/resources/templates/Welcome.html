@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Watcher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>The Watcher</h1>
+    <h3> Sign in </h3>
+    <form method="POST" action="/home" th:object="${user}">
+
+        <label for="LOGIN-username">Username</label>
+        <input type="text" id="LOGIN-username" th:field="*{username}">
+        <p th:if="${wrongusername}" th:text="${wrongusername}" style="color: red;"></p>
+        <br></br>
+
+        <label for="LOGIN-password">Password</label>
+        <input type="password" id="LOGIN-password" th:field="*{password}">
+        <p th:if="${wrongpassword}" th:text="${wrongpassword}" style="color: red;"></p>
+        <br></br>
+
+        <button type="submit">LOGIN</button>
+
+    </form>
+
+    <h3> Register </h3>
+    <form method="POST" action="/registered" th:object="${user}">
+
+        <label for="REGISTER-username">Username</label>
+        <input type="text" id="REGISTER-username" th:field="*{username}">
+        <p th:if="${#fields.hasErrors('username')}" th:errors="*{username}">Error</p>
+        <br></br>
+
+        <label for="REGISTER-password">Password</label>
+        <input type="password" id="REGISTER-password" th:field="*{password}">
+        <p th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Error</p>
+        <br></br>
+
+        <button type="submit">REGISTER</button>
+
+    </form>
+</body>
+</html>
