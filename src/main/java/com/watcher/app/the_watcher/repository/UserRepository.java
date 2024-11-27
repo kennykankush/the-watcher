@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Repository;
 
@@ -12,6 +13,7 @@ import com.watcher.app.the_watcher.dto.User;
 public class UserRepository {
 
     @Autowired
+    @Qualifier("userRedisTemplate")
     private RedisTemplate<String, Object> template;
 
     String hash = "UserDatabase";

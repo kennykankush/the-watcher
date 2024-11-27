@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>YOURE IN</h2>
+    <h2>YOURE IN ... THE WATCHER</h2>
+    <p>AND YOU ARE LOGGED IN AS <strong th:text="${session.loggedInUser}"></strong></p>
+
+    <form method="POST" action="/createPost" th:object=${contentObject}>
+        <label for="postContent">What's on your mind?</label>
+        <br></br>
+        <textarea id="postContent" name="postContent" rows="10" cols="45" th:field="*{content}">
+        </textarea>
+        <br></br>
+
+        <button type="submit">Post</button>
+    </form>
+
+    <h2> Your feed</h2>
+    <ul>
+        <li th:each="post : ${allPost}">
+            <strong th:text="${post.author}">:</strong>
+            <span th:text="${post.content}"></span>
+            <em th:text="${post.timestamp}"></em>
+        </li>
+    </ul>
+
+
+
+
 </body>
 </html>

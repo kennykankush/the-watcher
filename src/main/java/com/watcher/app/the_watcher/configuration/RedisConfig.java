@@ -1,5 +1,6 @@
 package com.watcher.app.the_watcher.configuration;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -7,7 +8,11 @@ import org.springframework.data.redis.connection.RedisConnectionFactory;
 import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
 @Configuration
 public class RedisConfig {
@@ -45,8 +50,9 @@ public class RedisConfig {
     // i said ok the key is GESETZ-polarité (LAW-POLARITY)
     // and the value is 주문하다. (ORDER)
     // He'll then input in that raw language.
-
-    @Bean   
+    
+    @Bean
+    @Qualifier("userRedisTemplate")
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory redisConnectionFactory){
         RedisTemplate<String, Object> template = new RedisTemplate<>();
         template.setConnectionFactory(redisConnectionFactory);
@@ -62,6 +68,27 @@ public class RedisConfig {
         return template;
         
     }
+
+    @Bean
+    @Qualifier("PostTemplate")
+    public RedisTemplate<String, Object> postRedisTemplate(RedisConnectionFactory redisConnectionFactory){
+        RedisTemplate<String, Object> template = new RedisTemplate<>();
+        template.setConnectionFactory(redisConnectionFactory);
+
+        StringRedisSerializer serializer = new StringRedisSerializer();
+        GenericJackson2JsonRedisSerializer jsonSerializer = new GenericJackson2JsonRedisSerializer();
+
+        template.setKeySerializer(serializer);
+        template.setHashKeySerializer(serializer);
+
+        template.setValueSerializer(jsonSerializer);
+        template.setHashKeySerializer(jsonSerializer);
+
+        return template;
+
+    }
+
+
 
 
     

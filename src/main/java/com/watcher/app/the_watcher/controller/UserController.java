@@ -12,6 +12,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import com.watcher.app.the_watcher.dto.User;
 import com.watcher.app.the_watcher.service.UserService;
 
+import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 
 @Controller
@@ -28,8 +29,8 @@ public class UserController {
         return "Welcome";
     }
 
-    @PostMapping("/home")
-    public String login(@ModelAttribute User user, RedirectAttributes redirectAttributes ) {
+    @PostMapping("/login")
+    public String login(@ModelAttribute User user, RedirectAttributes redirectAttributes, HttpSession session ) {
 
         // System.out.println("Username entered: " + user.getUsername());
         
@@ -52,11 +53,13 @@ public class UserController {
 
         System.out.println("Successful login");
 
-        return "HomePage";
+        session.setAttribute("loggedInUser", user.getUsername());
+
+        return "redirect:/home";
     }
     
 
-    @PostMapping("/registered") //take both the inputs and add them into the database, sents them into /registered
+    @PostMapping("/registered") 
     public String register(@Valid User details, BindingResult result, Model model) {
         if (result.hasErrors()) {
             return "Welcome";
