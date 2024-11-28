@@ -1,0 +1,166 @@
+
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java»
+5com.watcher.app.the_watcher.controller.FeedControllerCLASSR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java ("1
+package&com.watcher.app.the_watcher.controller"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ù
+declarationStringá<mark class="annotation">@Controller</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>FeedController"
+accesspublic*FeedController2·
+~com.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java (2Ì
+âcom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java- -(2≠
+Jcom.watcher.app.the_watcher.controller.FeedController?feedRepo@27.27:27.35DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java (#Å
+~com.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java ("
+isFinalfalse"˝
+declarationStringÁ<mark class="annotation">@GetMapping("/home")</mark> <br><mark class="modifier">public </mark>String <mark class="method">homePage</mark>(HttpSession session<mark class="modifier"><mark class="modifier">,</mark></mark> Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*homePage2ü
+Ccom.watcher.app.the_watcher.repository.FeedRepository.getAllPosts()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java&* &(52á
++com.watcher.app.the_watcher.dto.Post.Post()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java 0  (42·
+Ñcom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)!modelCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java   (2„
+Ücom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)!sessionCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java" "(2¶
+Jcom.watcher.app.the_watcher.controller.FeedController?feedRepo@27.27:27.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java&! &()2·
+Ñcom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)!modelCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java' '(2Û
+ñcom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)?allUserPost@38.19:38.30CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java'& '(12Ë
+Ücom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)!session	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java' (.2Ê
+Ñcom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)!model	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java6 (;2˙
+ñcom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)?allUserPost@38.19:38.30DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java& &(2s
+java.lang.StringRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java (Ù
+ñcom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)?allUserPost@38.19:38.30VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java& &("
+type
+List<Post>"
+isFinalfalse"Ñ
+declarationStringo<mark class="modifier"> </mark>List<Post> <mark class="class-field">allUserPost</mark> = feedRepo.getAllPosts()*allUserPost2j
+java.util.ListTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java& &(2â
+$com.watcher.app.the_watcher.dto.PostTYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java& &(2ü
+Ccom.watcher.app.the_watcher.repository.FeedRepository.getAllPosts()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java&* &(52¶
+Jcom.watcher.app.the_watcher.controller.FeedController?feedRepo@27.27:27.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java&! &()¿
+Ücom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)!session	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java' (."
+typeHttpSession"
+isFinalfalse"(
+declarationStringHttpSession session*session2|
+ jakarta.servlet.http.HttpSessionTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java (&™
+Ñcom.watcher.app.the_watcher.controller.FeedController.homePage(jakarta.servlet.http.HttpSession, org.springframework.ui.Model)!model	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java6 (;"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2x
+org.springframework.ui.ModelTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java0 (5Á$
+âcom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java- -("
+isFinalfalse"˙
+declarationString‰ <br><mark class="modifier">public </mark>String <mark class="method">postContent</mark>(HttpSession session<mark class="modifier"><mark class="modifier">,</mark></mark> <mark class="annotation">@ModelAttribute</mark> Post post)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*postContent2ú
+@com.watcher.app.the_watcher.dto.Post.setAuthor(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java1 1(2ö
+>java.time.format.DateTimeFormatter.ofPattern(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java28 2(A2ü
+Ccom.watcher.app.the_watcher.dto.Post.setTimestamp(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java3 3(2w
+java.lang.String.toString()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java3@ 3(H2û
+Bjava.time.LocalDateTime.format(java.time.format.DateTimeFormatter)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java3. 3(42y
+java.time.LocalDateTime.now()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java3( 3(+2“
+vcom.watcher.app.the_watcher.repository.FeedRepository.savePost(java.lang.String, com.watcher.app.the_watcher.dto.Post)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java5 5(2Ó
+ëcom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!sessionCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java/& /(-2Î
+écom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!postCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java1 1(2˛
+°com.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)?currentUser@47.15:47.26CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java1 1("2Î
+écom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!postCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java3 3(2¸
+ücom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)?formatter@50.26:50.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java35 3(>2¶
+Jcom.watcher.app.the_watcher.controller.FeedController?feedRepo@27.27:27.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java5 5(2˛
+°com.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)?currentUser@47.15:47.26CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java5 5(%2Î
+écom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!postCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java5' 5(+2Û
+ëcom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!session	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java-* -(12
+écom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!post	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java-H -(L2Ö
+°com.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)?currentUser@47.15:47.26DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java/ /(2É
+ücom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)?formatter@50.26:50.35DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java2 2(#2s
+java.lang.StringRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java- -(´
+°com.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)?currentUser@47.15:47.26VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java/ /("
+typeString"
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier"> </mark>String <mark class="class-field">currentUser</mark> = (String) session.getAttribute("loggedInUser")*currentUser2l
+java.lang.StringTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java/ /(2Ó
+ëcom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!sessionCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java/& /(-˛
+ücom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)?formatter@50.26:50.35VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java2 2(#"
+typeDateTimeFormatter"
+isFinalfalse"¶
+declarationStringê<mark class="modifier"> </mark>DateTimeFormatter <mark class="class-field">formatter</mark> = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")*	formatter2~
+"java.time.format.DateTimeFormatterTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java2 2(2ö
+>java.time.format.DateTimeFormatter.ofPattern(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java28 2(AÀ
+ëcom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!session	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java-* -(1"
+typeHttpSession"
+isFinalfalse"(
+declarationStringHttpSession session*session2|
+ jakarta.servlet.http.HttpSessionTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java- -()È
+écom.watcher.app.the_watcher.controller.FeedController.postContent(jakarta.servlet.http.HttpSession, com.watcher.app.the_watcher.dto.Post)!post	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java-H -(L"
+typePost"
+isFinalfalse"N
+declarationString9<mark class="annotation">@ModelAttribute</mark> Post post*post2Ä
+$com.watcher.app.the_watcher.dto.PostTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java-C -(Gç
+Jcom.watcher.app.the_watcher.controller.FeedController?feedRepo@27.27:27.35VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java (#"
+isFinalfalse"
+typeFeedRepository"s
+declarationString^<mark class="modifier">private </mark>FeedRepository <mark class="class-field">feedRepo</mark>"
+isStaticfalse"
+accessprivate*feedRepo2ë
+5com.watcher.app.the_watcher.repository.FeedRepositoryTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\FeedController.java (

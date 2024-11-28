@@ -1,0 +1,212 @@
+
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java˝
+
+5com.watcher.app.the_watcher.controller.UserControllerCLASSR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java ("1
+package&com.watcher.app.the_watcher.controller"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ù
+declarationStringá<mark class="annotation">@Controller</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>UserController"
+accesspublic*UserController2¬
+_com.watcher.app.the_watcher.controller.UserController.welcomePage(org.springframework.ui.Model)DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (2ß
+√com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java   (2î
+∞com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java> >(2∞
+Mcom.watcher.app.the_watcher.controller.UserController?userService@21.24:21.35DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (#ü
+
+_com.watcher.app.the_watcher.controller.UserController.welcomePage(org.springframework.ui.Model)METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java ("
+isFinalfalse"¶
+declarationStringê<mark class="annotation">@GetMapping</mark> <br><mark class="modifier">public </mark>String <mark class="method">welcomePage</mark>(Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*welcomePage2á
++com.watcher.app.the_watcher.dto.User.User()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java+ (/2¡
+ecom.watcher.app.the_watcher.controller.UserController.welcomePage(org.springframework.ui.Model)!modelCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (2¡
+ecom.watcher.app.the_watcher.controller.UserController.welcomePage(org.springframework.ui.Model)!modelCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (2∆
+ecom.watcher.app.the_watcher.controller.UserController.welcomePage(org.springframework.ui.Model)!model	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$ ()2s
+java.lang.StringRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (ä
+ecom.watcher.app.the_watcher.controller.UserController.welcomePage(org.springframework.ui.Model)!model	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$ ()"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2x
+org.springframework.ui.ModelTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (#´4
+√com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java   ("
+isFinalfalse"◊
+declarationString¡ <br><mark class="modifier">public </mark>String <mark class="method">login</mark>(<mark class="annotation">@ModelAttribute</mark> User user<mark class="modifier"><mark class="modifier">,</mark></mark> RedirectAttributes redirectAttributes<mark class="modifier"><mark class="modifier">,</mark></mark> HttpSession session)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*login2ß
+Kcom.watcher.app.the_watcher.service.UserService.userExist(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$, $(52é
+2com.watcher.app.the_watcher.dto.User.getUsername()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$; $(F2é
+2com.watcher.app.the_watcher.dto.User.getUsername()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java, ,(*2Ö
+)java.lang.String.equals(java.lang.Object)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java/9 /(?2≥
+Wcom.watcher.app.the_watcher.service.UserService.getPasswordbyUsername(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java/ /(.2é
+2com.watcher.app.the_watcher.dto.User.getPassword()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java/E /(P2â
+-java.io.PrintStream.println(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java5 5(2é
+2com.watcher.app.the_watcher.dto.User.getUsername()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java72 7(=2©
+Mcom.watcher.app.the_watcher.controller.UserController?userService@21.24:21.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$  $(+2•
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!userCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$6 $(:2∫
+›com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)?doesUserExist@36.16:36.29CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java' '(2≥
+÷com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!redirectAttributesCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java( ((2•
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!userCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java, ,(2©
+Mcom.watcher.app.the_watcher.controller.UserController?userService@21.24:21.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java/ /(2µ
+ÿcom.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)?userName@44.15:44.23CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java// /(72•
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!userCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java/@ /(D2≥
+÷com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!redirectAttributesCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java0 0(2®
+Àcom.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!sessionCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java7 7(2•
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!userCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java7- 7(12™
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!user	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java -  (12∏
+÷com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!redirectAttributes	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java F  (X2≠
+Àcom.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!session	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java f  (m2¡
+›com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)?doesUserExist@36.16:36.29DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$ $(2º
+ÿcom.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)?userName@44.15:44.23DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java, ,(2s
+java.lang.StringRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java   (ú
+›com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)?doesUserExist@36.16:36.29VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$ $("
+typeboolean"
+isFinalfalse"µ
+declarationStringü<mark class="modifier"> </mark><mark class="modifier">boolean</mark> <mark class="class-field">doesUserExist</mark> = userService.userExist(user.getUsername())*doesUserExist2c
+booleanTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$ $(2ß
+Kcom.watcher.app.the_watcher.service.UserService.userExist(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$, $(52é
+2com.watcher.app.the_watcher.dto.User.getUsername()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$; $(F2©
+Mcom.watcher.app.the_watcher.controller.UserController?userService@21.24:21.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$  $(+2•
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!userCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java$6 $(:á
+ÿcom.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)?userName@44.15:44.23VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java, ,("
+typeString"
+isFinalfalse"y
+declarationStringd<mark class="modifier"> </mark>String <mark class="class-field">userName</mark> = user.getUsername()*userName2l
+java.lang.StringTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java, ,(2é
+2com.watcher.app.the_watcher.dto.User.getUsername()CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java, ,(*2•
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!userCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java, ,(£
+»com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!user	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java -  (1"
+typeUser"
+isFinalfalse"N
+declarationString9<mark class="annotation">@ModelAttribute</mark> User user*user2Ä
+$com.watcher.app.the_watcher.dto.UserTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (  (,”
+÷com.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!redirectAttributes	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java F  (X"
+typeRedirectAttributes"
+isFinalfalse":
+declarationString%RedirectAttributes redirectAttributes*redirectAttributes2ö
+>org.springframework.web.servlet.mvc.support.RedirectAttributesTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java 3  (EÖ
+Àcom.watcher.app.the_watcher.controller.UserController.login(com.watcher.app.the_watcher.dto.User, org.springframework.web.servlet.mvc.support.RedirectAttributes, jakarta.servlet.http.HttpSession)!session	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java f  (m"
+typeHttpSession"
+isFinalfalse"(
+declarationStringHttpSession session*session2|
+ jakarta.servlet.http.HttpSessionTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java Z  (e∫
+∞com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java> >("
+isFinalfalse"ª
+declarationString• <br><mark class="modifier">public </mark>String <mark class="method">register</mark>(<mark class="annotation">@Valid</mark> User details<mark class="modifier"><mark class="modifier">,</mark></mark> BindingResult result<mark class="modifier"><mark class="modifier">,</mark></mark> Model model)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*register2º
+`com.watcher.app.the_watcher.service.UserService.savePerson(com.watcher.app.the_watcher.dto.User)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.javaC C(2â
+-java.io.PrintStream.println(java.lang.String)CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.javaE E(2î
+∑com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!resultCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java? ?(2©
+Mcom.watcher.app.the_watcher.controller.UserController?userService@21.24:21.35CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.javaC C(2ï
+∏com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!detailsCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.javaC C(&2ï
+∏com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!detailsCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.javaE7 E(>2ö
+∏com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!details	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>' >(.2ô
+∑com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!result	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>> >(D2ò
+∂com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!model	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>L >(Q2s
+java.lang.StringRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java> >(ê
+∏com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!details	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>' >(."
+typeUser"
+isFinalfalse"H
+declarationString3<mark class="annotation">@Valid</mark> User details*details2Ä
+$com.watcher.app.the_watcher.dto.UserTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>" >(&Ä
+∑com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!result	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>> >(D"
+typeBindingResult"
+isFinalfalse")
+declarationStringBindingResult result*result2à
+,org.springframework.validation.BindingResultTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>0 >(=‹
+∂com.watcher.app.the_watcher.controller.UserController.register(com.watcher.app.the_watcher.dto.User, org.springframework.validation.BindingResult, org.springframework.ui.Model)!model	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>L >(Q"
+typeModel"
+isFinalfalse" 
+declarationStringModel model*model2x
+org.springframework.ui.ModelTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java>F >(Kä
+Mcom.watcher.app.the_watcher.controller.UserController?userService@21.24:21.35VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (#"
+isFinalfalse"
+typeUserService"s
+declarationString^<mark class="modifier">private </mark>UserService <mark class="class-field">userService</mark>"
+isStaticfalse"
+accessprivate*userService2ã
+/com.watcher.app.the_watcher.service.UserServiceTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\controller\UserController.java (

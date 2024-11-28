@@ -1,0 +1,246 @@
+
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaú
+5com.watcher.app.the_watcher.configuration.RedisConfigCLASSR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java ("4
+package)com.watcher.app.the_watcher.configuration"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ù
+declarationStringá<mark class="annotation">@Configuration</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>RedisConfig"
+accesspublic*RedisConfig2±
+Ncom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java%" %(82È
+Öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java?) ?(62Ì
+âcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQ) Q(:2Æ
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisHost@20.19:20.28DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java (2Æ
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisPort@23.16:23.25DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java (2Æ
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisUser@26.19:26.28DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java (2≤
+Ocom.watcher.app.the_watcher.configuration.RedisConfig?redisPassword@29.19:29.32DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java ( º
+Ncom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java%" %(8"
+isFinalfalse"∞
+declarationStringö<mark class="annotation">@Bean</mark> <br><mark class="modifier">public </mark>RedisConnectionFactory <mark class="method">redisConnectionFactory</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeRedisConnectionFactory*redisConnectionFactory2Ω
+acom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()?config@38.37:38.43CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java' '(2ß
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisHost@20.19:20.28CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java' '($2Ω
+acom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()?config@38.37:38.43CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java( ((2ß
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisPort@23.16:23.25CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java( (( 2Ω
+acom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()?config@38.37:38.43CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java) )(2ß
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisUser@26.19:26.28CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java) )($2Ω
+acom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()?config@38.37:38.43CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java* *(2´
+Ocom.watcher.app.the_watcher.configuration.RedisConfig?redisPassword@29.19:29.32CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java* *((2Ω
+acom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()?config@38.37:38.43CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java+* +(02ƒ
+acom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()?config@38.37:38.43DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java&% &(+2£
+@org.springframework.data.redis.connection.RedisConnectionFactoryRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java% %(!«
+acom.watcher.app.the_watcher.configuration.RedisConfig.redisConnectionFactory()?config@38.37:38.43VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java&% &(+"$
+typeRedisStandaloneConfiguration"
+isFinalfalse"û
+declarationStringà<mark class="modifier"> </mark>RedisStandaloneConfiguration <mark class="class-field">config</mark> = new RedisStandaloneConfiguration()*config2¢
+Forg.springframework.data.redis.connection.RedisStandaloneConfigurationTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java& &($Ñ$
+Öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java?) ?(6"
+isFinalfalse"ª
+declarationString• <br><mark class="annotation">@Qualifier("userRedisTemplate")</mark> <br><mark class="modifier">public </mark>RedisTemplate&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">redisTemplate</mark>(RedisConnectionFactory redisConnectionFactory)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"%
+typeRedisTemplate<String, Object>*redisTemplate2˜
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaA A(2˘
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)!redisConnectionFactoryCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaA& A(<2˜
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaE E(2˘
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@67.30:67.40CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaE" E(,2˜
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaF F(2˘
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@67.30:67.40CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaF& F(02˜
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaH H(2˘
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@67.30:67.40CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaH$ H(.2˜
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaI I(2˘
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@67.30:67.40CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaI( I(22˜
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaK K(2˛
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)!redisConnectionFactory	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java?N ?(d2˛
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java@& @(.2Ä
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@67.30:67.40DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaC C((2î
+1org.springframework.data.redis.core.RedisTemplateRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java? ?(2|
+java.lang.StringRETURN_TYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java? ?(2|
+java.lang.ObjectRETURN_TYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java?! ?('“
+öcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@64.38:64.46VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java@& @(."%
+typeRedisTemplate<String, Object>"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark>RedisTemplate<String, Object> <mark class="class-field">template</mark> = new RedisTemplate<>()*template2ç
+1org.springframework.data.redis.core.RedisTemplateTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java@ @(2u
+java.lang.StringTYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java@ @(2u
+java.lang.ObjectTYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java@ @($Ó
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@67.30:67.40VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaC C(("
+typeStringRedisSerializer"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark>StringRedisSerializer <mark class="class-field">serializer</mark> = new StringRedisSerializer()*
+serializer2õ
+?org.springframework.data.redis.serializer.StringRedisSerializerTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaC C(´
+úcom.watcher.app.the_watcher.configuration.RedisConfig.redisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)!redisConnectionFactory	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java?N ?(d"
+typeRedisConnectionFactory"
+isFinalfalse"B
+declarationString-RedisConnectionFactory redisConnectionFactory*redisConnectionFactory2ú
+@org.springframework.data.redis.connection.RedisConnectionFactoryTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java?7 ?(M÷&
+âcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)METHODR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQ) Q(:"
+isFinalfalse"∫
+declarationString§ <br><mark class="annotation">@Qualifier("PostTemplate")</mark> <br><mark class="modifier">public </mark>RedisTemplate&lt;String<mark class="modifier"><mark class="modifier">,</mark></mark>Object&gt; <mark class="method">postRedisTemplate</mark>(RedisConnectionFactory redisConnectionFactory)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"%
+typeRedisTemplate<String, Object>*postRedisTemplate2˚
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaS S(2˝
+†com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)!redisConnectionFactoryCALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaS& S(<2˚
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaX X(2˝
+†com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@85.30:85.40CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaX" X(,2˚
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaY Y(2˝
+†com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@85.30:85.40CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaY& Y(02˚
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java[ [(2Å
+§com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?jsonSerializer@86.43:86.57CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java[$ [(22˚
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java\ \(2Å
+§com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?jsonSerializer@86.43:86.57CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java\& \(42˚
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46CALLR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java^ ^(2Ç
+†com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)!redisConnectionFactory	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQR Q(h2Ç
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaR& R(.2Ñ
+†com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@85.30:85.40DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaU U((2à
+§com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?jsonSerializer@86.43:86.57DECLARATIONR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaV+ V(92î
+1org.springframework.data.redis.core.RedisTemplateRETURN_TYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQ Q(2|
+java.lang.StringRETURN_TYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQ Q(2|
+java.lang.ObjectRETURN_TYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQ! Q('÷
+ûcom.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?template@82.38:82.46VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaR& R(."%
+typeRedisTemplate<String, Object>"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark>RedisTemplate<String, Object> <mark class="class-field">template</mark> = new RedisTemplate<>()*template2ç
+1org.springframework.data.redis.core.RedisTemplateTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaR R(2u
+java.lang.StringTYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaR R(2u
+java.lang.ObjectTYPE_ARGUMENTR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaR R($Ú
+†com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?serializer@85.30:85.40VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaU U(("
+typeStringRedisSerializer"
+isFinalfalse"ì
+declarationString~<mark class="modifier"> </mark>StringRedisSerializer <mark class="class-field">serializer</mark> = new StringRedisSerializer()*
+serializer2õ
+?org.springframework.data.redis.serializer.StringRedisSerializerTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaU U(≥
+§com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)?jsonSerializer@86.43:86.57VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaV+ V(9"*
+type"GenericJackson2JsonRedisSerializer"
+isFinalfalse"≤
+declarationStringú<mark class="modifier"> </mark>GenericJackson2JsonRedisSerializer <mark class="class-field">jsonSerializer</mark> = new GenericJackson2JsonRedisSerializer()*jsonSerializer2®
+Lorg.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializerTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaV V(*Ø
+†com.watcher.app.the_watcher.configuration.RedisConfig.postRedisTemplate(org.springframework.data.redis.connection.RedisConnectionFactory)!redisConnectionFactory	PARAMETERR
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQR Q(h"
+typeRedisConnectionFactory"
+isFinalfalse"B
+declarationString-RedisConnectionFactory redisConnectionFactory*redisConnectionFactory2ú
+@org.springframework.data.redis.connection.RedisConnectionFactoryTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.javaQ; Q(Q⁄
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisHost@20.19:20.28VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">redisHost</mark>"
+isStaticfalse"
+accessprivate*	redisHost2l
+java.lang.StringTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java (Ê
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisPort@23.16:23.25VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java ("
+isFinalfalse"
+typeint"á
+declarationStringr<mark class="modifier">private </mark><mark class="modifier">int</mark> <mark class="class-field">redisPort</mark>"
+isStaticfalse"
+accessprivate*	redisPort2_
+intTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java (⁄
+Kcom.watcher.app.the_watcher.configuration.RedisConfig?redisUser@26.19:26.28VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">redisUser</mark>"
+isStaticfalse"
+accessprivate*	redisUser2l
+java.lang.StringTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java (Ê
+Ocom.watcher.app.the_watcher.configuration.RedisConfig?redisPassword@29.19:29.32VARIABLER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java ( "
+isFinalfalse"
+typeString"p
+declarationString[<mark class="modifier">private </mark>String <mark class="class-field">redisPassword</mark>"
+isStaticfalse"
+accessprivate*redisPassword2l
+java.lang.StringTYPER
+Hsrc\main\java\com\watcher\app\the_watcher\configuration\RedisConfig.java (

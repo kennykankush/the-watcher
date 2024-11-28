@@ -1,0 +1,120 @@
+
+7src\main\java\com\watcher\app\the_watcher\dto\User.javaÈ
+
+$com.watcher.app.the_watcher.dto.UserCLASSA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java
+ 
+("*
+packagecom.watcher.app.the_watcher.dto"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ü
+declarationStringæ<mark class="annotation">@Data</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>User"
+accesspublic*User2„
+2com.watcher.app.the_watcher.dto.User.getUsername()DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2”
+Bcom.watcher.app.the_watcher.dto.User.setUsername(java.lang.String)DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2„
+2com.watcher.app.the_watcher.dto.User.getPassword()DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2”
+Bcom.watcher.app.the_watcher.dto.User.setPassword(java.lang.String)DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2‹
+9com.watcher.app.the_watcher.dto.User?username@13.19:13.27DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2‹
+9com.watcher.app.the_watcher.dto.User?password@16.19:16.27DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (¿
+2com.watcher.app.the_watcher.dto.User.getUsername()METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("
+isFinalfalse"j
+declarationStringU<mark class="modifier">public </mark>String <mark class="method">getUsername</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getUsername2„
+9com.watcher.app.the_watcher.dto.User?username@13.19:13.27CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2b
+java.lang.StringRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (¥
+Bcom.watcher.app.the_watcher.dto.User.setUsername(java.lang.String)METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("
+isFinalfalse"–
+declarationString€<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setUsername</mark>(String username)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setUsername2–
+Kcom.watcher.app.the_watcher.dto.User.setUsername(java.lang.String)!usernameCALLA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ( 2„
+9com.watcher.app.the_watcher.dto.User?username@13.19:13.27CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2›
+Kcom.watcher.app.the_watcher.dto.User.setUsername(java.lang.String)!username	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java# (+2V
+voidRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (Ê
+Kcom.watcher.app.the_watcher.dto.User.setUsername(java.lang.String)!username	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java# (+"
+typeString"
+isFinalfalse"$
+declarationStringString username*username2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("¿
+2com.watcher.app.the_watcher.dto.User.getPassword()METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("
+isFinalfalse"j
+declarationStringU<mark class="modifier">public </mark>String <mark class="method">getPassword</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getPassword2„
+9com.watcher.app.the_watcher.dto.User?password@16.19:16.27CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2b
+java.lang.StringRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (¥
+Bcom.watcher.app.the_watcher.dto.User.setPassword(java.lang.String)METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("
+isFinalfalse"–
+declarationString€<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setPassword</mark>(String password)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setPassword2–
+Kcom.watcher.app.the_watcher.dto.User.setPassword(java.lang.String)!passwordCALLA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ( 2„
+9com.watcher.app.the_watcher.dto.User?password@16.19:16.27CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (2›
+Kcom.watcher.app.the_watcher.dto.User.setPassword(java.lang.String)!password	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java# (+2V
+voidRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (Ê
+Kcom.watcher.app.the_watcher.dto.User.setPassword(java.lang.String)!password	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java# (+"
+typeString"
+isFinalfalse"$
+declarationStringString password*password2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("ú
+9com.watcher.app.the_watcher.dto.User?username@13.19:13.27VARIABLEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("
+isFinalfalse"
+typeString"À
+declarationStringª<mark class="modifier">private </mark>String <mark class="class-field">username</mark> = 3, max = 20, message = "Username be 3 - 20 Characters")
+private String username;"
+isStaticfalse"
+accessprivate*username2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (ÿ
+9com.watcher.app.the_watcher.dto.User?password@16.19:16.27VARIABLEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java ("
+isFinalfalse"
+typeString"Å
+declarationString¯<mark class="modifier">private </mark>String <mark class="class-field">password</mark> = 8, max = 20, message = "Password must be 8 - 20 Characters")
+private String password;"
+isStaticfalse"
+accessprivate*password2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\User.java (

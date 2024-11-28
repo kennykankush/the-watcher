@@ -1,0 +1,35 @@
+
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.javaö
+1com.watcher.app.the_watcher.TheWatcherApplicationCLASSN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java (""&
+packagecom.watcher.app.the_watcher"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¯
+declarationString™<mark class="annotation">@SpringBootApplication</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>TheWatcherApplication"
+accesspublic*TheWatcherApplication2©
+Jcom.watcher.app.the_watcher.TheWatcherApplication.main(java.lang.String[])DECLARATIONN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java (ö
+Jcom.watcher.app.the_watcher.TheWatcherApplication.main(java.lang.String[])METHODN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java ("
+isFinalfalse"²
+declarationStringœ<mark class="modifier">public </mark><mark class="modifier">static </mark><mark class="modifier">void</mark> <mark class="method">main</mark>(String[] args)"
+isStatictrue"
+accesspublic"
+
+isAbstractfalse"
+typevoid*main2§
+Ocom.watcher.app.the_watcher.TheWatcherApplication.main(java.lang.String[])!argsCALLN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java	5 	(92¬
+Ocom.watcher.app.the_watcher.TheWatcherApplication.main(java.lang.String[])!args	PARAMETERN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java" (&2c
+voidRETURN_TYPEN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java (æ
+Ocom.watcher.app.the_watcher.TheWatcherApplication.main(java.lang.String[])!args	PARAMETERN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java" (&"
+typeString[]"
+isFinalfalse""
+declarationStringString[] args*args2j
+java.lang.String[]TYPEN
+Dsrc\main\java\com\watcher\app\the_watcher\TheWatcherApplication.java (!

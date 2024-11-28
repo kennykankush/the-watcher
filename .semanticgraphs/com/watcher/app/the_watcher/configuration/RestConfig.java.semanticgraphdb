@@ -1,0 +1,31 @@
+
+Gsrc\main\java\com\watcher\app\the_watcher\configuration\RestConfig.javaË
+4com.watcher.app.the_watcher.configuration.RestConfigCLASSQ
+Gsrc\main\java\com\watcher\app\the_watcher\configuration\RestConfig.java ("4
+package)com.watcher.app.the_watcher.configuration"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"ú
+declarationStringÜ<mark class="annotation">@Configuration</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>RestConfig"
+accesspublic*
+RestConfig2•
+Ccom.watcher.app.the_watcher.configuration.RestConfig.restTemplate()DECLARATIONQ
+Gsrc\main\java\com\watcher\app\the_watcher\configuration\RestConfig.java
+ 
+($ø
+Ccom.watcher.app.the_watcher.configuration.RestConfig.restTemplate()METHODQ
+Gsrc\main\java\com\watcher\app\the_watcher\configuration\RestConfig.java
+ 
+($"
+isFinalfalse"ú
+declarationStringÜ<mark class="annotation">@Bean</mark> <br><mark class="modifier">public </mark>RestTemplate <mark class="method">restTemplate</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeRestTemplate*restTemplate2ç
++org.springframework.web.client.RestTemplateRETURN_TYPEQ
+Gsrc\main\java\com\watcher\app\the_watcher\configuration\RestConfig.java
+ 
+(

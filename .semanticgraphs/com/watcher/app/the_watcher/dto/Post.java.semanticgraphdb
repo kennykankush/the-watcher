@@ -1,0 +1,169 @@
+
+7src\main\java\com\watcher\app\the_watcher\dto\Post.javaÓ
+$com.watcher.app.the_watcher.dto.PostCLASSA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("*
+packagecom.watcher.app.the_watcher.dto"
+isFinalfalse"
+inner classfalse"
+
+isAbstractfalse"¸
+declarationStringÊ<mark class="annotation">@Data</mark> <br><mark class="annotation">@NoArgsConstructor</mark> <br><mark class="annotation">@AllArgsConstructor</mark> <br><mark class="modifier">public </mark><mark class="modifier">class </mark>Post"
+accesspublic*Post2Ç
+0com.watcher.app.the_watcher.dto.Post.getAuthor()DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2í
+@com.watcher.app.the_watcher.dto.Post.setAuthor(java.lang.String)DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2É
+1com.watcher.app.the_watcher.dto.Post.getContent()DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2ì
+Acom.watcher.app.the_watcher.dto.Post.setContent(java.lang.String)DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2Ö
+3com.watcher.app.the_watcher.dto.Post.getTimestamp()DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2ï
+Ccom.watcher.app.the_watcher.dto.Post.setTimestamp(java.lang.String)DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java   (2â
+7com.watcher.app.the_watcher.dto.Post?author@13.19:13.25DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2ä
+8com.watcher.app.the_watcher.dto.Post?content@14.19:14.26DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2å
+:com.watcher.app.the_watcher.dto.Post?timestamp@15.19:15.28DECLARATIONA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (∑
+0com.watcher.app.the_watcher.dto.Post.getAuthor()METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"h
+declarationStringS<mark class="modifier">public </mark>String <mark class="method">getAuthor</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*	getAuthor2Ç
+7com.watcher.app.the_watcher.dto.Post?author@13.19:13.25CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2b
+java.lang.StringRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (í
+@com.watcher.app.the_watcher.dto.Post.setAuthor(java.lang.String)METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"ë
+declarationString|<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setAuthor</mark>(String author)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*	setAuthor2í
+Gcom.watcher.app.the_watcher.dto.Post.setAuthor(java.lang.String)!authorCALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2Ç
+7com.watcher.app.the_watcher.dto.Post?author@13.19:13.25CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2ó
+Gcom.watcher.app.the_watcher.dto.Post.setAuthor(java.lang.String)!author	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java! ('2V
+voidRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (¬
+Gcom.watcher.app.the_watcher.dto.Post.setAuthor(java.lang.String)!author	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java! ('"
+typeString"
+isFinalfalse""
+declarationStringString author*author2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ( ª
+1com.watcher.app.the_watcher.dto.Post.getContent()METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"i
+declarationStringT<mark class="modifier">public </mark>String <mark class="method">getContent</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*
+getContent2É
+8com.watcher.app.the_watcher.dto.Post?content@14.19:14.26CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2b
+java.lang.StringRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (õ
+Acom.watcher.app.the_watcher.dto.Post.setContent(java.lang.String)METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"ì
+declarationString~<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setContent</mark>(String content)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*
+setContent2î
+Icom.watcher.app.the_watcher.dto.Post.setContent(java.lang.String)!contentCALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2É
+8com.watcher.app.the_watcher.dto.Post?content@14.19:14.26CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2ô
+Icom.watcher.app.the_watcher.dto.Post.setContent(java.lang.String)!content	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java" ()2V
+voidRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (∆
+Icom.watcher.app.the_watcher.dto.Post.setContent(java.lang.String)!content	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java" ()"
+typeString"
+isFinalfalse"#
+declarationStringString content*content2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (!√
+3com.watcher.app.the_watcher.dto.Post.getTimestamp()METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"k
+declarationStringV<mark class="modifier">public </mark>String <mark class="method">getTimestamp</mark>()"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typeString*getTimestamp2Ö
+:com.watcher.app.the_watcher.dto.Post?timestamp@15.19:15.28CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (2b
+java.lang.StringRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (Æ
+Ccom.watcher.app.the_watcher.dto.Post.setTimestamp(java.lang.String)METHODA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java   ("
+isFinalfalse"ò
+declarationStringÇ<mark class="modifier">public </mark><mark class="modifier">void</mark> <mark class="method">setTimestamp</mark>(String timestamp)"
+isStaticfalse"
+accesspublic"
+
+isAbstractfalse"
+typevoid*setTimestamp2ò
+Mcom.watcher.app.the_watcher.dto.Post.setTimestamp(java.lang.String)!timestampCALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java! !("2Ö
+:com.watcher.app.the_watcher.dto.Post?timestamp@15.19:15.28CALLA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java! !(2ù
+Mcom.watcher.app.the_watcher.dto.Post.setTimestamp(java.lang.String)!timestamp	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java $  (-2V
+voidRETURN_TYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java   (Œ
+Mcom.watcher.app.the_watcher.dto.Post.setTimestamp(java.lang.String)!timestamp	PARAMETERA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java $  (-"
+typeString"
+isFinalfalse"%
+declarationStringString timestamp*	timestamp2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java   (#û
+7com.watcher.app.the_watcher.dto.Post?author@13.19:13.25VARIABLEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"
+typeString"i
+declarationStringT<mark class="modifier">private </mark>String <mark class="class-field">author</mark>"
+isStaticfalse"
+accessprivate*author2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (°
+8com.watcher.app.the_watcher.dto.Post?content@14.19:14.26VARIABLEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"
+typeString"j
+declarationStringU<mark class="modifier">private </mark>String <mark class="class-field">content</mark>"
+isStaticfalse"
+accessprivate*content2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (ß
+:com.watcher.app.the_watcher.dto.Post?timestamp@15.19:15.28VARIABLEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java ("
+isFinalfalse"
+typeString"l
+declarationStringW<mark class="modifier">private </mark>String <mark class="class-field">timestamp</mark>"
+isStaticfalse"
+accessprivate*	timestamp2[
+java.lang.StringTYPEA
+7src\main\java\com\watcher\app\the_watcher\dto\Post.java (
