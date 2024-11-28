@@ -20,11 +20,11 @@ public class RedisConfig {
     @Value("${spring.data.redis.port}")
     private int redisPort;
 
-    // @Value("${spring.data.redis.username}")
-    // private String redisUser;
+    @Value("${spring.data.redis.username}")
+    private String redisUser;
 
-    // @Value("${spring.data.redis.password}")
-    // private String redisPassword;
+    @Value("${spring.data.redis.password}")
+    private String redisPassword;
 
     //I'll need to find a way to communicate with Redis, like some sort of bridge. I could build this bridge 
     // brick by brick with my bare hands, or maybe i could just use redisConnectionFactory that basically
@@ -36,8 +36,8 @@ public class RedisConfig {
         RedisStandaloneConfiguration config = new RedisStandaloneConfiguration();
         config.setHostName(redisHost);
         config.setPort(redisPort);
-        // config.setUsername(redisUser);
-        // config.setPassword(redisPassword);
+        config.setUsername(redisUser);
+        config.setPassword(redisPassword);
         return new JedisConnectionFactory(config); // What the heck is JedisConnectionFactory // Hahaha... Java + Redis = Jedis....
         
     }
